@@ -15,7 +15,7 @@ import{ Injectable }from '@angular/core';
 }
 
 clear() {
-     this.messages=[];
+ this.messages=[];
 }
 
 }
