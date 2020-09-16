@@ -1,0 +1,39 @@
+h2{
+  color:red;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:lighter;
+
+}
+body{
+  margin:2em;
+
+}
+body,input[text],button{
+  color:rgb(172, 164, 165);
+  font-family:cambria,georgia;
+}
+button.clear{
+  font-family:arial;
+  background-color:#eee;
+ border:none;
+ padding:5px 10px;
+ border-radius:4px;
+ cursor:pointer;
+ cursor:hand;
+
+}
+button.disable{
+  
+  background-color:#eee;
+  color:#aaa;
+  cursor:auto;
+}
+button:hover::after{
+  backgroun-color:#cfd8dcc;
+}
+button.clear:
+{
+color:#333;
+margin-bottom:12px;
+}
+
