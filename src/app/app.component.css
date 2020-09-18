@@ -8,3 +8,9 @@ h1{
 body{
   margin:2em;
 }
+nav #g
+{
+  margin:2px;
+  padding:0.8em;
+  border:2px;
+}

@@ -22,6 +22,7 @@ h3{
 }
 h4{
   position:relative;
+  text-overflow: ellipsis;
 }
 .grid{
   margin:0;
@@ -31,11 +32,12 @@ h4{
   width:25%;
 }
 .module{
-  padding:20px;
+  padding:16px;
   text-align:center;
+  position:relative;
   color:#eee;
   max-height:120px;
-  min-width:120px;
+  min-width:125px;
   background-color:#3f525c;
   border-radius:2px;
 }
@@ -53,12 +55,12 @@ h4{
   padding-right:20px;
 
 }
-@media(max-width:1024px)
+@media(max-width:1030px)
 {
   .grid{
   margin: 10;
   }
   .module{
-    min-width:60px;
+    min-width:62px;
   }
 }
